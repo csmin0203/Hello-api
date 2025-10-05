@@ -21,7 +21,7 @@ public class HelloCtrl {
 
         double timestamp = System.currentTimeMillis();
 
-        String message = "Hello, world";
+        String message = "Hello, Jenkins";
 
         return new HelloResponseDTO(seoulTime.toString(), timestamp, message);
     }
